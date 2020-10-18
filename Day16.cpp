@@ -3,6 +3,7 @@ class Solution {
 public:
 	//also can be solved by binary search 
 	//take whole array as a single 1-d array
+	//and your job is done
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
         if(m==0){
